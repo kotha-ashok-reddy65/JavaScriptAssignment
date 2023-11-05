@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: end;
+}
+.container {
+  /* height: 60px; */
+  /* padding-left: 30px; */
+  width: 100%;
+  margin: 0 auto;
+}
+
+a:hover {
+  background-color: rgb(236, 161, 22);
+  border-radius: 50px;
+}
+h3 {
+  display: inline;
+
+  left: 0;
+  position: absolute;
+  top: 10px;
+  margin-left: 70px;
+}
+
+.links {
+  margin-right: 30px;
+  padding: 8px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 18px;
+
+  letter-spacing: 0.5px;
+  color: black;
+  right: 0;
+}
